@@ -19,7 +19,7 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <body>
 
-    <head>
+    <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +27,7 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  <a class="nav-link" aria-current="page" href="#home">Home</a>
                   <a class="nav-link" href="#sobremi">Sobre Mi</a>
                   <a class="nav-link" href="#misproyectos">Mis Proyectos</a>
                   <a class="nav-link" href="#contacto">Contacto</a>
@@ -35,7 +35,7 @@
               </div>
             </div>
           </nav>
-    </head>
+    </header>
 
     <section id="home" class="home">
         <div>
@@ -68,33 +68,36 @@
 
     </section>
 
-    <section id="misproyectos">
 
-        <div>
-            <p>Mis Proyectos</p>
-        </div>
+    <section id="misproyectos" class="proyectos">
 
-        <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-          
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
+      <div>
+        <p class=parrafo-proyectos>Mis Proyectos</p>
+     </div>
 
-            <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-          
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
+      <div class="flex-card">
+        <div class="card card1">
+          <img src="..." class="card-img-top" alt="...">
+        
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
-    </section>
+
+        <div class="card card2">
+          <img src="..." class="card-img-top" alt="...">
+        
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+   </section>
+
 
     <section id="contacto">
         <a href="https://wa.me/+541127829662"><img src="Logos/whatsapp_black_logo_icon_147050.png" alt="" width="5%"></a>

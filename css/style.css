@@ -46,4 +46,29 @@ body {
   margin-left: 5%;
 }
 
+.proyectos {
+  margin-top: 20%;
+}
+
+.parrafo-proyectos {
+  color: white;
+  font-size: 300%;
+  font-weight: bolder;
+  margin-left: 5%;
+}
+
+.flex-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.card1 {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.card2 {
+  margin-right: 5%;
+}
+
 /*# sourceMappingURL=style.css.map */
