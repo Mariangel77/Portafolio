@@ -22,4 +22,28 @@ body {
   font-size: 100%;
 }
 
+.sobre-mi {
+  color: white;
+  margin-left: 5%;
+  font-weight: bolder;
+  font-size: 300%;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.ft-mia {
+  border-radius: 200px;
+  margin-left: 5%;
+}
+
+.parrafo {
+  color: white;
+  font-weight: bolder;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
 /*# sourceMappingURL=style.css.map */
