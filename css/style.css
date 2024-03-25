@@ -1,5 +1,5 @@
 body {
-  background-image: url(/fondo/About.png);
+  background-color: ghostwhite;
 }
 
 .home {
@@ -7,24 +7,34 @@ body {
   flex-direction: column;
   align-items: center;
   margin-top: 20%;
-  margin-bottom: 20%;
+  margin-bottom: 30%;
 }
 
 .Mariangel-Molina {
-  color: white;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
   font-weight: bolder;
   font-size: 350%;
 }
 
 .Desarrolladora-Web {
-  color: white;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
   font-weight: bolder;
   font-size: 100%;
 }
 
+.sobremi {
+  margin-bottom: 30%;
+}
+
 .sobre-mi {
-  color: white;
+  font-family: "Courier New", Courier, monospace;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  color: black;
   margin-left: 5%;
+  margin: 5%;
   font-weight: bolder;
   font-size: 300%;
 }
@@ -35,26 +45,28 @@ body {
 }
 
 .ft-mia {
-  border-radius: 200px;
-  margin-left: 5%;
+  margin-left: 10%;
 }
 
 .parrafo {
-  color: white;
+  color: black;
+  font-size: 100%;
+  font-family: "Courier New", Courier, monospace;
   font-weight: bolder;
   margin-right: 5%;
-  margin-left: 5%;
-}
-
-.proyectos {
-  margin-top: 20%;
+  margin-left: 10%;
 }
 
 .parrafo-proyectos {
-  color: white;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
   font-size: 300%;
   font-weight: bolder;
   margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 6%;
 }
 
 .flex-card {
@@ -69,6 +81,30 @@ body {
 
 .card2 {
   margin-right: 5%;
+}
+
+.contacto1 {
+  margin-top: 30%;
+}
+
+.flex-logo {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+}
+
+.whatsapp {
+  margin-left: 30%;
+}
+
+footer {
+  display: inline;
+  text-align: center;
+}
+
+.bajo2 {
+  color: gray;
+  font-size: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */

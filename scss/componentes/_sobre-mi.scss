@@ -1,7 +1,14 @@
+.sobremi {
+    margin-bottom: 30%;
+}
 
 .sobre-mi {
-    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border-top: 1px solid black ;
+    border-bottom: 1px solid black;
+    color: black;
     margin-left: 5%;
+    margin: 5%;
     font-weight: bolder;
     font-size: 300%;
 }
@@ -13,13 +20,14 @@
 }
 
 .ft-mia {
-    border-radius: 200px;
-    margin-left: 5%;
+    margin-left: 10%;
 }
 
 .parrafo {
-    color: white;
+    color: black;
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
     margin-right: 5%;
-    margin-left: 5%;
+    margin-left: 10%;
 }

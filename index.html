@@ -19,7 +19,8 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <body>
 
-    <header>
+    <div class="fixed-top">
+      <header> 
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +28,7 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link" aria-current="page" href="#home">Home</a>
+                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
                   <a class="nav-link" href="#sobremi">Sobre Mi</a>
                   <a class="nav-link" href="#misproyectos">Mis Proyectos</a>
                   <a class="nav-link" href="#contacto">Contacto</a>
@@ -35,9 +36,11 @@
               </div>
             </div>
           </nav>
-    </header>
+      </header>
+    </div>
 
-    <section id="home" class="home">
+
+    <section class="home">
         <div>
             <h1 class="Mariangel-Molina">Mariangel Molina</h1>
         </div>
@@ -47,7 +50,7 @@
         </div>
     </section>
 
-    <section id="sobremi">
+    <section id="sobremi" class="sobremi">
 
         <div>
             <p class="sobre-mi">Sobre Mi</p>
@@ -57,11 +60,18 @@
         <div class="flex">
 
           <div>
-              <img src="Foto-mia/desarrolladorweb.jpg (2).jpg" alt="" width="100%" class="ft-mia">
+              <img src="Foto-mia/imagen-fotor-20240325202739.png" alt="" width="100%" class="ft-mia">
           </div>
   
           <div>
-              <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum error saepe quibusdam, natus quisquam veritatis, ducimus ipsa perspiciatis incidunt optio molestiae at excepturi officia esse obcaecati, itaque dolorem accusamus aperiam!</p>
+              <p class="parrafo">Soy Mariangel, una apasionada y dedicada desarrolladora web especializada en crear experiencias digitales atractivas con una sólida base en HTML5, CSS, SASS, Git, y GitHub, mi enfoque se centra en el desarrollo de interfaces de usuario intuitivas y responsivas que no solo lucen bien, sino que también ofrecen una experiencia de usuario excepcional.
+                <br>
+                <br>
+                Desde una edad temprana, me fascinó la tecnología y el arte de crear. Esta pasión me llevó al mundo del desarrollo web, donde descubrí mi verdadera vocación. A lo largo de mi carrera, he tenido la oportunidad de colaborar en diversos proyectos, cada uno con sus propios desafíos y aprendizajes.
+                <br>
+                <br>
+                Me considero una eterna aprendiz, siempre en busca de nuevas técnicas y herramientas que me permitan mejorar mi trabajo. La evolución constante del desarrollo web me mantiene motivada y me empuja a salir de mi zona de confort, buscando innovar y aplicar las mejores prácticas en cada proyecto.
+              </p>
           </div>
 
         </div>
@@ -99,11 +109,25 @@
    </section>
 
 
-    <section id="contacto">
-        <a href="https://wa.me/+541127829662"><img src="Logos/whatsapp_black_logo_icon_147050.png" alt="" width="5%"></a>
+    <section id="contacto" class="contacto1">
 
-        <a href="https://www.linkedin.com/in/mariangel-molina-developer/"><img src="Logos/linkedin_black_logo_icon_147114.png" alt="" width="5%"></a>
+      <div class="flex-logo">
+
+        <div class="whatsapp">
+        <a href="https://wa.me/+541127829662"><img src="Logos/whatsapp_logo_icon_147205.png" alt="" width="10%"></a>
+        </div>
+
+        <div class="linkedin">
+        <a href="https://www.linkedin.com/in/mariangel-molina-developer/"><img src="Logos/linkedin_logo_icon_147268.png" alt="" width="10%"></a>
+        </div>
+      
+      </div>
+    
     </section>
+
+      <footer>
+        <p class="bajo2"> Reservados todos los derechos</p>
+      </footer>
 
 
 

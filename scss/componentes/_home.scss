@@ -1,23 +1,26 @@
 body {
-    background-image: url(/fondo/About.png);
+    background-color: ghostwhite;
 }
+
 
 .home {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 20%;
-    margin-bottom: 20%;
+    margin-bottom: 30%;
 }
 
 .Mariangel-Molina {
-    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
     font-weight: bolder;
     font-size: 350%;
 }
 
 .Desarrolladora-Web {
-    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
     font-weight: bolder;
     font-size: 100%;
 }
