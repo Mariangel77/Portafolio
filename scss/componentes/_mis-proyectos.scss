@@ -23,3 +23,49 @@
 .card2 {
     margin-right: 5%;
 }
+
+@media (min-width:200px) and (max-width:500px) {
+
+    .parrafo-proyectos{
+        font-size: 150%;
+    }
+
+    .flex-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card1 {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+    }
+
+    .card2 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+}
+
+@media (min-width:501px) and (max-width:850px) {
+    .parrafo-proyectos{
+        font-size: 200%;
+    }
+
+    .flex-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card1 {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+    }
+
+    .card2 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}

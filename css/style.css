@@ -24,6 +24,22 @@ body {
   font-size: 100%;
 }
 
+@media (min-width: 200px) and (max-width: 500px) {
+  .Mariangel-Molina {
+    font-size: 200%;
+  }
+  .Desarrolladora-Web {
+    font-size: 70%;
+  }
+}
+@media (min-width: 501px) and (max-width: 850px) {
+  .Mariangel-Molina {
+    font-size: 280%;
+  }
+  .Desarrolladora-Web {
+    font-size: 90%;
+  }
+}
 .sobremi {
   margin-bottom: 30%;
 }
@@ -57,6 +73,42 @@ body {
   margin-left: 10%;
 }
 
+@media (min-width: 200px) and (max-width: 500px) {
+  .sobre-mi {
+    font-size: 150%;
+  }
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .ft-mia {
+    margin-left: 20%;
+    margin-bottom: 3%;
+    width: 60%;
+  }
+  .parrafo {
+    color: black;
+    font-size: 80%;
+  }
+}
+@media (min-width: 501px) and (max-width: 850px) {
+  .sobre-mi {
+    font-size: 200%;
+  }
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .ft-mia {
+    margin-left: 20%;
+    margin-bottom: 3%;
+    width: 60%;
+  }
+  .parrafo {
+    color: black;
+    font-size: 90%;
+  }
+}
 .parrafo-proyectos {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
@@ -83,6 +135,42 @@ body {
   margin-right: 5%;
 }
 
+@media (min-width: 200px) and (max-width: 500px) {
+  .parrafo-proyectos {
+    font-size: 150%;
+  }
+  .flex-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .card1 {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+  }
+  .card2 {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+@media (min-width: 501px) and (max-width: 850px) {
+  .parrafo-proyectos {
+    font-size: 200%;
+  }
+  .flex-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .card1 {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+  }
+  .card2 {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
 .contacto1 {
   margin-top: 30%;
 }
